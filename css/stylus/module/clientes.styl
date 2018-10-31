@@ -1,0 +1,35 @@
+.clientes
+	wrapped()
+	padding 100px 0 
+	background-color #E5E5E5
+	display flex
+	flex-direction column
+	align-content center
+	-webkit-align-items center 
+	align-items center
+	justify-content center
+	
+	+below($mobile)
+		text-align center
+		
+		h1
+			line-height 40px 
+
+
+.logosClientes
+	width 70% 
+	margin 0 auto  
+	display flex
+	flex-direction row
+	-webkit-justify-content center 
+	justify-content center 
+	align-content center
+	flex-wrap wrap
+
+	img
+		margin 0 20px
+	
+	+below($mobile)
+		img
+			margin 0
+			width 50%

@@ -1,0 +1,30 @@
+.mainHeader
+  wrapped()
+  z-index 10
+  display flex
+  justify-content space-between
+  align-items center
+  position fixed 0
+  height 90px
+  transition 300ms all ease-in-out
+  
+  &.fixed  
+  &.is-active
+  &.is-fixed
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+    
+    .mainLogo__white
+      display none
+      
+    .mainLogo__blue
+      display block
+    
+    .mainNav-item
+      color $blue
+      
+    .burguerIcon
+      background-color $blue
+
+  +below(1220px)
+    wrapped(90%)

@@ -1,0 +1,25 @@
+.propuesta
+  wrapped()
+  height 100vh
+  text-align center
+  background url('/img/bgValor.png') center no-repeat
+  background-size cover
+  display flex
+  -webkit-flex-direction column 
+  -ms-flex-direction column 
+  flex-direction column 
+  
+  h1
+  	margin-top 150px 
+  	margin-bottom 100px 
+  	text-transform uppercase 
+  	color $white
+  
+  +below($mobile)
+    height 100%
+    padding-bottom 60px
+    
+    h1
+      margin-top 60px
+      line-height 40px 
+  
